@@ -48,11 +48,17 @@ Version Control: Git & GitHub
 
 ## 📸 Project Screenshots
 
-### Login Page
-![Login](screenshots/login.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](admin(2).png)
 
-### Admin Panel
-![Admin](screenshots/admin.png)
+git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+cd project-folder
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+
+
+
